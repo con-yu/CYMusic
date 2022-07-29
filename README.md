@@ -5,11 +5,10 @@
 
 ![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
 ![lyric](https://github.com/con-yu/CYMusic/blob/master/demo-image/lyric.png)
-![home](https://backiee.com/latest)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![musicPlayer](https://github.com/con-yu/CYMusic/blob/master/demo-image/musicPlayer.png)
+![mvDetail](https://github.com/con-yu/CYMusic/blob/master/demo-image/mvDetail.png)
+![mvList](https://github.com/con-yu/CYMusic/blob/master/demo-image/mvList.png)
+![playListDetail](https://github.com/con-yu/CYMusic/blob/master/demo-image/playListDetail.png)
+![search](https://github.com/con-yu/CYMusic/blob/master/demo-image/search.png)
+![searchResult](https://github.com/con-yu/CYMusic/blob/master/demo-image/searchResult.png)
 
