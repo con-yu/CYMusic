@@ -12,6 +12,7 @@
 ![search](https://github.com/con-yu/CYMusic/blob/master/demo-image/search.png)
 ![searchResult](https://github.com/con-yu/CYMusic/blob/master/demo-image/searchResult.png)
 ![searchResult](https://backiee.com/static/wpdb/wallpapers/v2/560x315/333362.jpg)
+![searchResult](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
 
 
 ![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
