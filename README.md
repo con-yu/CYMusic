@@ -5,7 +5,7 @@
 
 ![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
 ![lyric](https://github.com/con-yu/CYMusic/blob/master/demo-image/lyric.png)
-![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://backiee.com/latest)
 ![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
 ![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
 ![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
