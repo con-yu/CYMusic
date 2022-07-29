@@ -1,0 +1,39 @@
+// 格式化播放量
+function formatCount(count) {
+  var counter = parseInt(count)
+  if (counter >= 100000000) {
+    return (counter / 100000000).toFixed(1) + "亿"
+  } else if (counter >= 10000) {
+    return (counter / 10000).toFixed(1) + "万"
+  } else {
+    return counter + ""
+  }
+}
+
+// 分/秒数为个位数时补0
+function padleftZero(time) {
+  time = time + ""
+  return ("00" + time).slice(time.length)
+}
+
+// 格式化播放时长
+function formatDuration(duration) {
+  duration = duration / 1000
+  var minute = Math.floor(duration / 60)
+  var second = Math.floor(duration % 60)
+
+  minute = padleftZero(minute)
+  second = padleftZero(second)
+  return minute + ":" + second
+}
+
+
+
+// 不支持es6......😓
+// export { formatCount }
+
+// commonjs
+module.exports = {
+  formatCount: formatCount,
+  formatDuration: formatDuration,
+}

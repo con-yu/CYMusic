@@ -1,0 +1,54 @@
+<!-- pages/home-music/index.wxml -->
+<!-- 首页顶部搜索框 -->
+<van-search disabled shape="round" background="#fafafa" placeholder="请输入搜索内容" bind:click-input="handleClickSearch" />
+
+<!-- 测试登录按钮 -->
+<!-- <view bindtap="login">测试登录</view>
+<view bindtap="verify">验证登录</view>
+<view bindtap="state">登录状态</view> -->
+
+<!-- 轮播图 -->
+<swiper class="swiper" style="height: {{swiperHeight}}px;" indicator-dots autoplay circular>
+  <block wx:for="{{banners}}" wx:key="bannerId">
+    <swiper-item class="swiper-item">
+      <image class="swiper-img" src="{{item.pic}}" mode="widthFix" bindload="handleSwiperImgLoaded"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 热门歌曲 -->
+<view class="hotSongs" wx:if="{{top10HotSongs.length}}">
+  <area-header title="热门歌曲" data-idx="3" bindtap="handleClickTopMore"></area-header>
+  <view class="song-list">
+    <block wx:for="{{top10HotSongs}}" wx:key="id">
+      <song-item-v1 item="{{item}}" data-index="{{index}}" bindtap="handleSongItemClick"></song-item-v1>
+    </block>
+  </view>
+</view>
+
+<!-- 精品歌单 -->
+<playlist-area wx:if="{{top10HotSongs.length}}" title="精品歌单" hotPlaylists="{{hotPlaylists}}">
+</playlist-area>
+
+<!-- 巅峰榜 -->
+<view class="ranking" wx:if="{{top10HotSongs.length}}">
+  <block wx:for="{{rankings}}" wx:key="id">
+    <top-area item="{{item}}" data-id="{{item.id}}" bindtap="handleClickToplist"></top-area>
+  </block>
+</view>
+
+
+<!-- 播放工具栏 -->
+<view class="play-bar-placeholder" wx:if="{{currentSong.id}}"></view>
+<view class="play-bar" wx:if="{{currentSong.id}}" bindtap="handleBarClick">
+  <view class="left">
+    <image class="album album-anim" src="{{currentSong.al.picUrl}}" mode="aspectFill" style="animation-play-state: {{playAnimationState}};">
+    </image>
+    <view class="info">{{currentSong.name}} - {{currentSong.ar[0].name}}</view>
+  </view>
+  <view class="right">
+    <image class="icon play" src="/assets/images/music/{{isPlaying?'pause':'play'}}_icon.png" catchtap="handlePlayBtnClick">
+    </image>
+    <image class="icon playlist" src="/assets/images/music/playlist_icon.png"></image>
+  </view>
+</view>

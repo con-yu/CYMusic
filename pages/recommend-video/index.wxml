@@ -1,0 +1,29 @@
+<!--pages/recommend-video/index.wxml-->
+<wxs src="/utils/format.wxs" module="format"></wxs>
+<video 
+    class="video" 
+    title="{{videoDetail.title}}"
+    src="{{videoUrl}}" 
+    autoplay 
+    enable-play-gesture
+></video>
+
+<!-- video信息(videoDetail有值才显示) -->
+<view class="info" wx:if="{{videoDetail.title}}"> 
+  <view class="title">{{ videoDetail.title }}</view>
+  <view class="desc">{{ videoDetail.creator.nickname }}</view>
+  <view class="other">
+    <text class="play-count">{{format.formatCount(videoDetail.playTime)}}次播放 - </text>
+    <text class="publish-time">{{publishTime}}</text>
+  </view>
+</view>
+
+<!-- 相关视频 -->
+<view class="recommend" wx:if="{{relatedVideos.length}}">
+  <view class="title">推荐视频</view>
+  <view class="video-list">
+    <block wx:for="{{relatedVideos}}" wx:key="vid">
+      <video-item-v2 itemInfo="{{item}}" data-id="{{item.vid}}" bindtap="recommendVideoClick"></video-item-v2>
+    </block>
+  </view>
+</view>

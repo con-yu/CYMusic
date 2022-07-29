@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "area-header":"/components/area-header",
+    "playlist-area":"/components/playlist-area",
+    "song-item-v1":"/components/song-item-v1",
+    "top-area":"/components/top-area"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "song-item-v2":"/components/song-item-v2",
+    "playlist-detail-header":"/components/playlist-detail-header"
+  }
+}

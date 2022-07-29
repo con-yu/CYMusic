@@ -1,0 +1,26 @@
+/* components/top-area/index.wxss */
+.item {
+  position: relative;
+}
+
+
+.album {
+  width: 50%;
+}
+
+.album .image {
+  display: inline-block;
+  width: 160px;
+  border-radius: 20rpx;
+}
+
+.album .play-counter {
+  position: absolute;
+  padding: 2px;
+  right: 5px;
+  bottom: 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: small;
+}

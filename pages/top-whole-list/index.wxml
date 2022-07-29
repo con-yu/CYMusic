@@ -1,0 +1,14 @@
+<!--pages/top-whole-list/index.wxml-->
+<view class="top-whole-list" wx:if="{{songs.length}}">
+  <view class="title">完整榜单</view>
+  <view class="list">
+    <block wx:for="{{songs}}" wx:key="id">
+      <song-item-v2 
+          item="{{item}}"
+          index="{{index+1}}"
+          bindtap="handleSongItemClick" 
+          data-index="{{index}}"></song-item-v2>
+    </block>
+    <view class="tips">已经到底了哟~</view>
+  </view>
+</view>

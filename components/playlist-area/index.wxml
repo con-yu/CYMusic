@@ -1,0 +1,9 @@
+<!--components/playlist-area/index.wxml-->
+<area-header title="{{title}}"  showRight="{{false}}"></area-header>
+<scroll-view scroll-x class="menu-list">
+  <block wx:for="{{hotPlaylists}}" wx:key="id">
+  <view class="menu-item">
+    <playlist-item item="{{item}}"></playlist-item>
+  </view>
+  </block>
+</scroll-view>

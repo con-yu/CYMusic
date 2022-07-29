@@ -1,0 +1,18 @@
+/**app.wxss**/
+page{
+  box-sizing: border-box; 
+  background-color: #fff
+}
+
+/* 搜索框样式 */
+.van-search{
+  padding: 10px 0 !important;
+}
+.van-search__content{
+  background-color: #fff !important;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+/* pages/playlist-whole-list/index.wxss */
+page {
+  padding: 0 10px;
+}
+/* .title {
+  text-align: center;
+  margin: 20rpx;
+  font-weight: 700;
+  color: #26ce8a;
+} */
+
+.tips{
+  padding: 20rpx ;
+  text-align: center;
+  font-size: small;
+  color: gray;
+}

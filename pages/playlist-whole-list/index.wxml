@@ -1,0 +1,16 @@
+<!--pages/playlist-whole-list/index.wxml-->
+<view class="playlist-whole-list" wx:if="{{songs.length}}">
+  <playlist-detail-header playlistDetail="{{playlistDetail}}"></playlist-detail-header>
+  <!-- 歌单歌曲列表 -->
+  <view class="list">
+    <block wx:for="{{songs}}" wx:key="id">
+      <song-item-v2 
+          item="{{item}}" 
+          index="{{index+1}}" 
+          bindtap="handleSongItemClick" 
+          data-index="{{index}}">
+      </song-item-v2>
+    </block>
+    <view class="tips">已经到底了哟~</view>
+  </view>
+</view>

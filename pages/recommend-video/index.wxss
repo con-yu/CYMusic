@@ -1,0 +1,30 @@
+/* pages/recommend-video/index.wxss */
+page {
+  padding-top: 225px;
+}
+.video {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* 显示优先级最高 */
+  z-index: 999;
+}
+
+
+.info {
+  padding: 30rpx;
+}
+
+.info .title {
+  font-weight: 700;
+}
+
+.info .desc, .info .other {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  color: #666;
+}
+.recommend {
+  padding: 30rpx;
+}
