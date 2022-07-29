@@ -3,4 +3,13 @@
 
 功能包括：播放歌曲/视频(mv)、搜索歌曲、查看歌单列表、播放页显示歌词封面等。
 
-<img src="backiee.com/static/wpdb/wallpapers/v2/1000x563/335952.jpg" width="30%">
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![lyric](https://github.com/con-yu/CYMusic/blob/master/demo-image/lyric.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+![home](https://github.com/con-yu/CYMusic/blob/master/demo-image/home.png)
+
