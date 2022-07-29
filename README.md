@@ -5,6 +5,5 @@
 
 实机演示图片见https://github.com/con-yu/CYMusic/tree/master/demo-image
 
-![img](https://backiee.com/static/wpdb/wallpapers/1000x563/191348.jpg)
-<img src="https://backiee.com/static/wpdb/wallpapers/1000x563/191348.jpg" width="30%">
+<img src="https://backiee.com/static/wpdb/wallpapers/1000x563/191348.jpg" width="50%">
 
